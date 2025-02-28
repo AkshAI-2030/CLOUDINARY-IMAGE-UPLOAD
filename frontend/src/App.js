@@ -1,12 +1,13 @@
-import React from 'react';
-import ProfileImageUpload from './components/imageUpload';
+import React from "react";
+import ProfileImageUpload from "./components/imageUpload";
 
 const App = () => {
   return (
     <div>
-    <ProfileImageUpload />
+      <ProfileImageUpload />
     </div>
   );
 };
 
 export default App;
+//nothing just added
