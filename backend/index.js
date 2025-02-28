@@ -15,6 +15,7 @@ if (!fs.existsSync(uploadDir)) {
 
 app.use(cors());
 app.use("/src/uploads", express.static("/src/uploads"));
+
 app.use("/files", fileRouter);
 app.use("/", (req, res) => {
   res.send("Welcome to file/image upload");
